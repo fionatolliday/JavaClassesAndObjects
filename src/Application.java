@@ -5,7 +5,7 @@ public class Application {
 
         System.out.println("Hello World");
         System.out.println(personOne.output);
-        System.out.println(personOne.name);
+        System.out.println(personOne.writeName());
     }
 
 

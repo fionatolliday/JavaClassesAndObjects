@@ -8,4 +8,8 @@ public class Person {
         this.name = name;
     }
 
+    public String writeName(){
+        return "My name is " + name;
+    }
+
 }
