@@ -6,6 +6,9 @@ public class Application {
         System.out.println("Hello World");
         System.out.println(personOne.output);
         System.out.println(personOne.writeName());
+        String firstAndLastName = personOne.getName() + " Tolliday";
+        personOne.setName(firstAndLastName);
+        System.out.println(personOne.writeName());
     }
 
 
