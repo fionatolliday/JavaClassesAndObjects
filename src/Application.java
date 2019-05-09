@@ -4,6 +4,7 @@ public class Application {
         Person personOne = new Person();
 
         System.out.println("Hello World");
+        System.out.println(personOne.output);
     }
 
 
