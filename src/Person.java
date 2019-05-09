@@ -1,7 +1,7 @@
 public class Person {
 
     String output;
-    String name;
+    private String name;
 
     public Person(String output, String name){
         this.output = output;
