@@ -1,7 +1,11 @@
 public class Person {
 
+
+
     String output;
     private String name;
+    private Brain brain;
+
 
     public String getName() {
         return name;
@@ -13,9 +17,9 @@ public class Person {
 
 
 
-    public Person(String output, String name){
-        this.output = output;
+    public Person(String name, Brain brain){
         this.name = name;
+        this.brain = brain;
     }
 
     public String writeName(){
